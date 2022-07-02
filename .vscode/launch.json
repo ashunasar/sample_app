@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Mode",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": ["--dart-define", "ENVIRONMENT=DEV"]
+    },
+    {
+      "name": "Prod Mode",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": ["--dart-define", "ENVIRONMENT=PROD"]
+    }
+  ]
+}
